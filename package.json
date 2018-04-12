@@ -1,0 +1,35 @@
+{
+  "name": "angular-node-docker-starter-app",
+  "version": "0.0.1",
+  "description": "quick starter app using node, angularjs and docker",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roncodingenthusiast/angular-node-docker-starter-app.git"
+  },
+  "keywords": [
+    "angular",
+    "node",
+    "docker",
+    "app"
+  ],
+  "author": "Ronald Ekambi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roncodingenthusiast/angular-node-docker-starter-app/issues"
+  },
+  "homepage": "https://github.com/roncodingenthusiast/angular-node-docker-starter-app#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  }
+}
